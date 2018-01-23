@@ -1,0 +1,78 @@
+/*type selectors*/
+body{
+	background: url("../Our Blog/Images/Camera6.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif,arial,helvetica;
+	color: white;
+}
+
+h2{
+	margin:0;
+}
+
+h3,h4,h5,h6{
+	color: maroon;
+}
+/*Class selectors*/
+.container{
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navigation{
+	background-color: maroon;
+	padding: 1em 1em;
+}
+
+.intro{
+	color: white;
+	font-size: 1.3em;
+}
+/*ID selectors*/
+#header,#footer{
+	background-color: black;
+	color: white;
+	padding: 2em;
+}
+
+#main{
+	margin: 1em 2em;
+}
+
+/*Universal selectors*/
+/*It targets every element in your webpage*/
+
+/**{
+	border: 2px black dotted;
+	margin: 0;
+	padding: 0;
+}*/
+/*Descendants selectors*/
+.navigation li{
+	display: inline;
+	margin-right: 1em;
+}
+.navigation li a:hover{
+	color: white;
+	font-weight: bold;
+}
+
+/*Child selectors*/
+.navigation li > a{
+	text-decoration: none;
+}
+
+/*Adjacent sibling selectors*/
+h4 + h5{
+	margin-top: 3em;
+}
+
+/*Link pseudo class selectors*/
+a:link {color: green;}
+a:visited {color: orange;}
+a:focus {color: aqua;}
+a:hover {color: red;}
+a:active {color: yellow;}
